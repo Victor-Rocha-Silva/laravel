@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar {
+    background-color: #3D5A73 !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #2F3D40;
+    border-color: #2F3D40;
+}
+
+.card {
+    background-color: #455559;
+    color: #fff;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #28403D;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
