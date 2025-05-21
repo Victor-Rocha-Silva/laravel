@@ -13,8 +13,7 @@ class ClienteController extends Controller
 
     function store(Request $dados){
         $cliente = new ClienteModel();
-        $cliente = $dados->all();
-        $cliente->save();
+        $cliente->save($dados->all());
     }
 
 };
