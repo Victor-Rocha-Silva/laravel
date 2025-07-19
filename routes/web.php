@@ -14,10 +14,15 @@ use App\Http\Middleware\LogAcessoMiddleware;
 */
 
 Route::get('/', [App\Http\Controllers\Principal::class, 'principal']);
-Route::get('cliente/add', [App\Http\Controllers\ClienteController::class, 'add'])->name('add-cliente');;
-Route::post('cliente/add', [App\Http\Controllers\ClienteController::class, 'store'])->name('store-cliente');;
 
+Route::get('/login', [App\Http\Controllers\Login::class, 'login']);
 
+Route::get('/home', [App\Http\Controllers\Home::class, 'home']);
 
+Route::get('/consulta', [App\Http\Controllers\ConsultadePlaca::class, 'consultadeplaca']);
 
+Route::get('/orçamento', [App\Http\Controllers\Orcamento::class, 'orcamento']);
 
+Route::get('/estoque', [App\Http\Controllers\Estoque::class, 'estoque']);
+
+Route::get('/gestao', [App\Http\Controllers\Gestao::class, 'gestao']);
