@@ -26,3 +26,5 @@ Route::get('/orçamento', [App\Http\Controllers\Orcamento::class, 'orcamento']);
 Route::get('/estoque', [App\Http\Controllers\Estoque::class, 'estoque']);
 
 Route::get('/gestao', [App\Http\Controllers\Gestao::class, 'gestao']);
+
+Route::get('/cadastro', [App\Http\Controllers\cadastrocliente::class, 'cadastrocliente']);
