@@ -17,10 +17,11 @@
 
     <style>
         :root {
+
             --brand-primary: #50B2EA;
             --brand-light-blue: #e0f2ff;
             --brand-dark: #212529;
-            border: 40px;
+            border: 39px;
             border-color: red;
         }
 
