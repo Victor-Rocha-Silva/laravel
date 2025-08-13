@@ -18,6 +18,7 @@ class UsuarioController extends Controller
         ]);
 
         $dados['password'] = bcrypt($dados['password']);
+        $dados['picture'] = 'https://cdn3.iconfinder.com/data/icons/innovation-technology/68/29-512.png';
         $dados['status'] = 'active';
         $dados['enabled'] = true;
 
